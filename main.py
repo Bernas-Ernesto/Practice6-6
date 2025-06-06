@@ -1,1 +1,6 @@
-# haha
+print("Best Coffee Shops in Town")
+print("- Starbucks")
+print("- Harlan Coffee")
+print("- Cafe Prince")
+print("- Wild Flour")
+print("- Arabica")
