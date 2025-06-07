@@ -3,17 +3,20 @@
 
 class Car:
     def __init__(self, make, model, year):
-        self.make = make
+        self.make = make 
         self.model = model 
-        self.year = year
-
+        self.year = year 
+        
     def display_info(self):
-        print(f"{self.make}, {self.model}, {self.year}")
+        print(f"Brand: {self.make}")
+        print(f"Model: {self.model}")
+        print(f"Year Released: {self.year}")
 
-# Create a car object with user input and call the display_info() method
-make = input("Enter a Brand: ")
-model = input("Enter a Model: ")
+make = input("Enter brand: ")
+model = input("Enter a model: ")
 year = input("Year Released: ")
-my_car = Car(make, model, year)
-my_car.display_info()
+show_my_car = Car(make, model, year)
+
+show_my_car.display_info()
+# Create a car object with user input and call the display_info() method
 

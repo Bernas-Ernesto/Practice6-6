@@ -14,9 +14,12 @@ class Member:
         self.family.append(add_family)
     
     def show_family_tree(self):
+        if self.family:
             print("\nFamily Members:")
             for member in self.family:
                 print(f"{member.name} - {member.relation}")
+        else:
+            print("No family members found.")
     
 family_tree = Member()
 
